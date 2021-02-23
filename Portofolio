@@ -1,0 +1,14 @@
+<!-- Christine's HTML page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="CSS/active.css"   />
+<title>CISC3160 Portfolio</title>
+</head>
+<body>
+<h1>Assignments and Projects</h1>
+<a href="Lab1_Lab2_Files/lam-home-lab2.html"> Lab </a><br>
+<br><a href="aboutme.html"> About Me </a>
+</body>
+</html>
