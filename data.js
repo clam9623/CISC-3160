@@ -40,16 +40,16 @@ new Chart(ctx2,
     data: {
       labels: ["Bronx", "Brooklyn", "Europe", "Queens", "Staten Island"],
       datasets: [{
-        label: "Population in Percentage",
+        label: "Population (millions)",
         backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-        data: [16.92,30.97,19.16,27.25,5.7]
+        data: [144.6788,264.8452,163.8281,233.0295,48.7155]
       }]
     },
   options: {
      aspectRatio: 1.1,
     title: {
       display: true,
-      text: ['Percentages of New York City Population by Borough in 2020', ' Made by Christine Lam']
+      text: ['New York City Population by Borough (ten thousands) in 2020', ' Made by Christine Lam']
     }
   }
 });
