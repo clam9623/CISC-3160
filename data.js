@@ -38,19 +38,20 @@ new Chart(ctx2,
 {
     type: 'pie',
     data: {
-      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+      labels: ["Bronx", "Brooklyn", "Europe", "Queens", "Staten Island"],
       datasets: [{
-        label: "Population (millions)",
+        label: "Population in Percentage",
         backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-        data: [2478,5267,734,784,433]
+        data: [16.92,30.97,19.16,27.25,5.7]
       }]
     },
   options: {
      aspectRatio: 1.1,
     title: {
       display: true,
-      text: ['Percentages of New York City Population by Borough from 1950-2020', ' Made by Christine Lam']
+      text: ['Percentages of New York City Population by Borough in 2020', ' Made by Christine Lam']
     }
   }
 });
 }
+
